@@ -1,0 +1,30 @@
+body {
+  width: 50em;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #00c;
+  border-bottom: 1px dotted #999;
+}
+
+a:hover {
+  color: #c00;
+}
+
+a.plain {
+  border: 0;
+}
+
+.small {
+  font-size: .8em;
+}
