@@ -1,4 +1,4 @@
-/* Stolen from Aslan Askarov (askarov.net) and Carlo Angiuli (http://www.cs.cmu.edu/~cangiuli/) */
+/* Stolen from Aslan Askarov (askarov.net), Carlo Angiuli (http://www.cs.cmu.edu/~cangiuli/), and Jonathan Sterling (jonmsterling.com) */
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700|Special+Elite);
 
 html {
@@ -6,7 +6,7 @@ html {
 }
 
 body{
-    font-size:80%;
+    font-size:90%;
     font-weight:400;
     text-align:left;
     font-family:  "Helvetica Neue", Lato, Helvetica, "Trebuchet MS", Arial;
@@ -18,12 +18,13 @@ h4           { margin-top:0; margin-bottom:0; font-weight:700;}
 .bf          { font-weight:700; font-family:"Special Elite" }
 
 ul {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 ul li {
-  list-style-type: none;
-  margin-bottom: 1em;
+    list-style-type: none;
+    line-height: 1.3em;
+    margin-bottom: 1em;
 }
 
 .titleblock{
@@ -34,7 +35,7 @@ ul li {
     font-weight:300;
     font-size:260%;
     font-style:normal;
-    line-height: 2;
+    line-height: 1.75;
 }
 
 .info {
@@ -46,21 +47,24 @@ ul li {
     padding:0px;
 }
 
-.office {
-    text-align: left;
-}
-
 #name {
     line-height: 1.5;
     width:260px;
 }
 
-#content {
-    margin: 5em auto;
-    width:44em;
+.award {
+  font-style:italic;
+  color: rgb(134,1,17);
 }
 
-@media (min-width: 1001px) {
+@media screen and (min-width: 44em)  {
+    #content{
+        margin: 5em auto;
+        width:44em;
+    }
+}
+
+@media (min-width: 1801px) {
     #general-info {
         position:absolute;
         top:2em;
@@ -69,10 +73,8 @@ ul li {
     }
 }
 
-
-@media (max-width: 1000px) {
+@media (max-width: 1800px) {
     #general-info {
-        display:none
         margin: 2em auto;
         line-height: 1;
     }
