@@ -11,118 +11,138 @@
     <link rel="stylesheet" media="screen" type="text/css" href="style.css" />
   </head>
   <body>
+    <div class= "info" id="general-info">
+      <div id="name">
+        <h1>Daniel Gratzer</h1>
+      </div>
+      <div class="office">
+        213 Turing<br />
+        Aabogade 34<br />
+        8200 Aarhus N., Denmark
+      </div>
+      <br/>
+      <div class="email">
+        gratzer@cs.au.dk
+      </div>
+      <br/>
+      <div class ="cv">
+        <a href="cv.pdf">Short CV</a>
+      </div>
+      <br/>
+      <div id = "other-sites">
+        <a href="http://www.github.com/jozefg" class="plain">
+          <img src="img/github.png" alt="GitHub" title="GitHub" /></a>
+        <a href="http://www.twitter.com/dannygratzer" class="plain">
+          <img src="img/twitter.png" alt="Twitter" title="Twitter" /></a>
+        <a href="https://orcid.org/0000-0003-1944-0789">
+          <img src="img/orcid.png" alt="ORCID"></a>
+        </div>
+    </div>
 
-    <h1>Daniel Gratzer</h1>
+    <div id="content">
+      <div id="short-summary">
+        <p>
+          I am a Ph.D. student in the
+          <a href="http://cs.au.dk/">Department of Computer Science</a> at
+          <a href="http://au.dk/">Aarhus University</a>.
+          I am advised by
+          <a href="http://cs.au.dk/~birke">Lars Birkedal</a>.
+        </p>
 
-    <p>
-      213 Turing<br />
-      Aabogade 34<br />
-      8200 Aarhus N., Denmark
-    </p>
+        <p>
+          I study programming languages, type theory, logic, and their semantics. I am interested in
+          applying semantic methods to develop program logics for sophisticated concurrent programming
+          languages through the <a href="http://iris-project.org">Iris project</a>. I also am
+          interested in (modal) dependent type theories, both their syntactic properties and
+          semantics.
+        </p>
+      </div>
 
-    <p>
-      gratzer AT cs DOT au.dk<br />
-      <a href="cv.pdf">Short CV</a><br/>
-      <a href="https://jozefg.bitbucket.io">(old) blog</a>
-    </p>
+      <div id="teaching">
+        <h2>Teaching</h2>
 
-    <p>
-      I am a Ph.D. student in the
-      <a href="http://cs.au.dk/">Department of Computer Science</a> at
-      <a href="http://au.dk/">Aarhus University</a>.
-      I am advised by
-      <a href="http://cs.au.dk/~birke">Lars Birkedal</a>.
-    </p>
+        <ul>
+          <li> Teaching assistant under Lars Birkedal and Anders Møller for Program Analysis and Verification </li>
+        </ul>
+      </div>
 
-    <p>
-      I study programming languages, type theory, logic, and their semantics. I am interested in
-      applying semantic methods to develop program logics for sophisticated concurrent programming
-      languages through the <a href="http://iris-project.org">Iris project</a>. I also am interested
-      in (modal) dependent type theories, both their syntactic properties and semantics.
-    </p>
+      <div id = "publications">
+        <h2>Publications</h2>
+        Please see <a href="refs.bib.txt">my bibliography</a> for bibtex entries for my published papers.
+        <ul>
+          <li>
+            <b>Implementing Modal Dependent Type Theory</b><br/>
+            D. Gratzer, J. Sterling, and L. Birkedal<br/>
+            <em> International Conference on Functional Programming</em>, 2019 <br/>
+            (<a href="papers/2019-implementing-modal-dependent-type-theory.pdf">PDF</a>,
+            <a href="papers/2019-implementing-modal-dependent-type-theory-tech-report.pdf">Technical Report</a>,
+            <a href="https://github.com/jozefg/blott">Experimental Implementation</a>,
+            <a href="papers/2019-icfp-modal-slides.pdf">Slides</a>)<br/>
+            <b>Distinguished Paper at ICFP'19</b>
+          </li>
+          <li>
+            <b>Cubical Syntax for Reflection-Free Extensional Equality</b><br/>
+            J. Sterling, C. Angiuli, and D. Gratzer<br/>
+            <em> Formal Structures for Computation and Deduction</em>, 2019 <br/>
+            (<a href="papers/2019-xtt.pdf">PDF</a>, <a href=https://arxiv.org/abs/1904.08562>Extended Arxiv Version</a>)<br/>
+            <b>Best Paper Award for Junior Researchers</b>
+          </li>
+          <li>
+            <b>Iron: Managing Obligations in Higher-Order Concurrent Separation Logic</b><br/>
+            A. Bizjak, D. Gratzer, R. Krebbers, and L. Birkedal.<br/>
+            <em>Principles of Programming Languages</em>, 2019.<br/>
+            (<a href="https://iris-project.org/pdfs/2019-popl-iron-final.pdf">PDF</a>,
+            <a href="https://iris-project.org/iron/">Website</a>,
+            <a href="https://gitlab.mpi-sws.org/iris/iron">Coq Development</a>)
+          </li>
+        </ul>
+      </div>
 
-    <h2>Teaching</h2>
+      <div id="preprints">
+        <h2>Preprints and Unpublished Notes</h2>
+        <ul>
+          <li>
+            <b>Formalizing Concurrent Stacks With Helping: A Case Study In Iris</b><br/>
+            D. Gratzer, M. Høier, A. Bizjak, and L. Birkedal<br/>
+            2017.<br/>
+            (<a href="https://iris-project.org/pdfs/2017-case-study-concurrent-stacks-with-helping.pdf">PDF</a>,
+            <a href="https://gitlab.mpi-sws.org/iris/examples/tree/master/theories/concurrent_stacks">Coq Development</a>)<br/>
+            <em>The Coq source has been updated and revised</em>
+          </li>
+        </li>
+      </ul>
+    </div>
 
-    <ul>
-      <li> Teaching assistant under Lars Birkedal and Anders Møller for Program Analysis and Verification </li>
-    </ul>
+    <div id = "talks">
+      <h2>Talks</h2>
+      <ul>
+        <li>
+          <b>Implementing Modal Dependent Type Theory</b><br/>
+          D. Gratzer, J. Sterling, and L. Birkedal<br/>
+          <em> International Conference on Functional Programming</em>, 2019 <br/>
+          (<a href="papers/2019-icfp-modal-slides.pdf">Slides</a>)<br/>
+        </li>
+        <li>
+          <b>Implementing Type Theory</b><br/>
+          D. Gratzer<br/>
+          <em>Computer Science Day (Aarhus University)</em>, 2019.<br/>
+          (<a href="papers/2019-csday-slides.pdf">Slides</a>)
+        </li>
 
-    <h2>Publications</h2>
-    Please see <a href="refs.bib.txt">my bibliography</a> for bibtex entries for my published papers.
-    <ul>
-      <li>
-        D. Gratzer, J. Sterling, and L. Birkedal<br/>
-        <b>Implementing Modal Dependent Type Theory</b><br/>
-        <em> International Conference on Functional Programming</em>, 2019 <br/>
-        (<a href="papers/2019-implementing-modal-dependent-type-theory.pdf">PDF</a>,
-         <a href="papers/2019-implementing-modal-dependent-type-theory-tech-report.pdf">Technical Report</a>,
-         <a href="https://github.com/jozefg/blott">Experimental Implementation</a>,
-         <a href="papers/2019-icfp-modal-slides.pdf">Slides</a>)<br/>
-         <b>Distinguished Paper at ICFP'19</b>
-      </li>
-      <li>
-        J. Sterling, C. Angiuli, and D. Gratzer<br/>
-        <b>Cubical Syntax for Reflection-Free Extensional Equality</b><br/>
-        <em> Formal Structures for Computation and Deduction</em>, 2019 <br/>
-        (<a href="papers/2019-xtt.pdf">PDF</a>, <a href=https://arxiv.org/abs/1904.08562>Extended Arxiv Version</a>)<br/>
-        Best Paper Award for Junior Researchers
-      </li>
-      <li>
-        A. Bizjak, D. Gratzer, R. Krebbers, and L. Birkedal.<br/>
-        <b>Iron: Managing Obligations in Higher-Order Concurrent Separation Logic</b><br/>
-        <em>Principles of Programming Languages</em>, 2019.<br/>
-        (<a href="https://iris-project.org/pdfs/2019-popl-iron-final.pdf">PDF</a>,
-        <a href="https://iris-project.org/iron/">Website</a>,
-        <a href="https://gitlab.mpi-sws.org/iris/iron">Coq Development</a>)
-      </li>
-    </ul>
-
-    <h2>Preprints and Unpublished Notes</h2>
-    <ul>
-      <li>
-      <li>
-        D. Gratzer, M. Høier, A. Bizjak, and L. Birkedal<br/>
-        <b>Formalizing Concurrent Stacks With Helping: A Case Study In Iris</b><br/>
-        2017.<br/>
-        (<a href="https://iris-project.org/pdfs/2017-case-study-concurrent-stacks-with-helping.pdf">PDF</a>,
-        <a href="https://gitlab.mpi-sws.org/iris/examples/tree/master/theories/concurrent_stacks">Coq Development</a>)<br/>
-        <em>The Coq source has been updated and revised</em>
-      </li>
-      </li>
-    </ul>
-
-    <h2>Talks</h2>
-    <ul>
-      <li>
-        D. Gratzer<br/>
-        <b>Implementing Type Theory</b><br/>
-        <em>Computer Science Day (Aarhus University)</em>, 2019.<br/>
-        (<a href="papers/2019-csday-slides.pdf">Slides</a>)
-      </li>
-
-      <li>
-        A. Bizjak, D. Gratzer, R. Krebbers, and L. Birkedal.<br/>
-        <b>Iron: Managing Obligations in Higher-Order Concurrent Separation Logic</b><br/>
-        <em>Principles of Programming Languages</em>, 2019.<br/>
-        (<a href="papers/2019-popl-iron-slides.pdf">Slides</a>)
-      </li>
-      <li>
-        D. Gratzer.<br/>
-        <b>An Introduction to Normalization-by-Evaluation</b><br/>
-        <em>Aarhus LogSem Seminar</em>, 2018.<br/>
-        (<a href="papers/2018-logsem-slides.pdf">Slides</a>)
-      </li>
-    </ul>
-
-    <h2>Other sites</h2>
-
-    <p>
-      <a href="http://www.github.com/jozefg" class="plain">
-        <img src="img/github.png" alt="GitHub" title="GitHub" /></a>
-      <a href="http://www.twitter.com/dannygratzer" class="plain">
-        <img src="img/twitter.png" alt="Twitter" title="Twitter" /></a>
-      <a href="https://orcid.org/0000-0003-1944-0789" >
-        <img src="img/orcid.png" alt="ORCID"></a>
-      </p>
+        <li>
+          <b>Iron: Managing Obligations in Higher-Order Concurrent Separation Logic</b><br/>
+          A. Bizjak, D. Gratzer, R. Krebbers, and L. Birkedal.<br/>
+          <em>Principles of Programming Languages</em>, 2019.<br/>
+          (<a href="papers/2019-popl-iron-slides.pdf">Slides</a>)
+        </li>
+        <li>
+          <b>An Introduction to Normalization-by-Evaluation</b><br/>
+          D. Gratzer.<br/>
+          <em>Aarhus LogSem Seminar</em>, 2018.<br/>
+          (<a href="papers/2018-logsem-slides.pdf">Slides</a>)
+        </li>
+      </ul>
+    </div>
+  </div>
   </body>
 </html>

@@ -1,6 +1,21 @@
-body {
-  width: 50em;
+/* Stolen from Aslan Askarov (askarov.net) and Carlo Angiuli (http://www.cs.cmu.edu/~cangiuli/) */
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700|Special+Elite);
+
+html {
+    -webkit-font-smoothing: antialiased;
 }
+
+body{
+    font-size:80%;
+    font-weight:400;
+    text-align:left;
+    font-family:  "Helvetica Neue", Lato, Helvetica, "Trebuchet MS", Arial;
+}
+
+h1           { margin-top:0; font-weight:300; font-style:normal; font-size:260%; margin-bottom:0.3em}
+h4           { margin-top:0; margin-bottom:0; font-weight:700;}
+.all 	     {  text-align:left;}
+.bf          { font-weight:700; font-family:"Special Elite" }
 
 ul {
   padding-left: 0;
@@ -11,20 +26,54 @@ ul li {
   margin-bottom: 1em;
 }
 
-a {
-  text-decoration: none;
-  color: #00c;
-  border-bottom: 1px dotted #999;
+.titleblock{
+    display:inline;
 }
 
-a:hover {
-  color: #c00;
+.name {
+    font-weight:300;
+    font-size:260%;
+    font-style:normal;
+    line-height: 2;
 }
 
-a.plain {
-  border: 0;
+.info {
+    font-weight:400;
+    font-size:100%;
 }
 
-.small {
-  font-size: .8em;
+.unpadded {
+    padding:0px;
+}
+
+.office {
+    text-align: left;
+}
+
+#name {
+    line-height: 1.5;
+    width:260px;
+}
+
+#content {
+    margin: 5em auto;
+    width:44em;
+}
+
+@media (min-width: 1001px) {
+    #general-info {
+        position:absolute;
+        top:2em;
+        left:5em;
+        line-height: 1.5;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    #general-info {
+        display:none
+        margin: 2em auto;
+        line-height: 1;
+    }
 }
