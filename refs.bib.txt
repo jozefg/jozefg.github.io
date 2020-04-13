@@ -1,4 +1,22 @@
-@article{gratzer-sterling-birkedal:2019,
+@article{bizjak:2019,
+  author =       {Bizjak, Ale\v{s} and Gratzer, Daniel and Krebbers, Robbert and Birkedal, Lars},
+  title =        {Iron: Managing Obligations in Higher-order Concurrent Separation Logic},
+  journal =      {Proc. ACM Program. Lang.},
+  issue_date =   {January 2019},
+  volume =       3,
+  number =       {POPL},
+  month =        jan,
+  year =         2019,
+  issn =         {2475-1421},
+  pages =        {65:1--65:30},
+  articleno =    65,
+  numpages =     30,
+  url =          {http://doi.acm.org/10.1145/3290378},
+  doi =          {10.1145/3290378},
+  keywords =     {Separation logic, concurrency, resource management},
+}
+
+@article{gratzer:2019,
   author =       {Gratzer, Daniel and Sterling, Jonathan and Birkedal, Lars},
   title =        {Implementing a Modal Dependent Type Theory},
   journal =      {Proc. ACM Program. Lang.},
@@ -14,12 +32,56 @@
   url =          {http://doi.acm.org/10.1145/3341711},
   doi =          {10.1145/3341711},
   acmid =        3341711,
-  publisher =    {ACM},
-  address =      {New York, NY, USA},
   keywords =     {Modal types, dependent types, normalization by evaluation, type-checking},
 }
 
-@InProceedings{sterling-angiuli-gratzer:2019,
+@Unpublished{gratzer:addendum-to-first-steps:2018,
+  author =       {Daniel Gratzer},
+  title =        {An Addendum to Section 7 of ``First Steps in Synthetic Guarded Domain Theory''},
+  note =         {Available at \url{https://jozefg.github.io/papers/an-addendum-to-first-steps.pdf}},
+  year =         2018,
+}
+
+@Unpublished{gratzer:concurrent-stacks:2017,
+  author =       {Gratzer, Daniel and H{\o}ier, Mathias and Bizjak, Ale{\v{s}} and Birkedal, Lars},
+  title =        {Formalizing Concurrent Stacks With Helping: A Case Study In Iris},
+  note =         {Available at
+                  \url{https://iris-project.org/pdfs/2017-case-study-concurrent-stacks-with-helping.pdf}},
+  year =         2017,
+}
+
+@Unpublished{gratzer:independence:2017,
+  author =       {Daniel Gratzer},
+  title =        {On The Independence of the Continuum Hypothesis},
+  note =         {Available at \url{https://jozefg.github.io/papers/on-the-independence.pdf}},
+  year =         2017,
+}
+
+@Unpublished{gratzer:multimodal-tech-report:2020,
+  author =       {Gratzer, Daniel and Kavvos, G.A. and Nuyts, Andreas, and Birkedal, Lars},
+  title =        {Type Theory \`a la Mode},
+  year =         2020,
+  note =         {Technical report accompanying ``Multimodal Dependent Type Theory''. Available at
+                  \url{https://jozefg.github.io/papers/type-theory-a-la-mode.pdf}},
+}
+
+@Unpublished{gratzer:multimodal:2020,
+  author =       {Gratzer, Daniel and Kavvos, G.A. and Nuyts, Andreas, and Birkedal, Lars},
+  title =        {Multimodal Dependent Type Theory},
+  year =         2020,
+  note =         {To Appear at LICS 2020. Availabe at
+                  \url{https://jozefg.github.io/papers/multimodal-dependent-type-theory.pdf}},
+}
+
+@Unpublished{gratzer:solving-domain-equations:2019,
+  author =       {Daniel Gratzer},
+  title =        {Solving Domain Equations over Transfinite Ordinals},
+  note =         {Available at
+                  \url{https://jozefg.github.io/papers/domain-equations-over-transfinite-ordinals.pdf}},
+  year =         2019,
+}
+
+@InProceedings{sterling:2019,
   author =       {Jonathan Sterling and Carlo Angiuli and Daniel Gratzer},
   title =        {{Cubical Syntax for Reflection-Free Extensional Equality}},
   booktitle =    {4th International Conference on Formal Structures for Computation and Deduction
@@ -31,8 +93,6 @@
   year =         2019,
   volume =       131,
   editor =       {Herman Geuvers},
-  publisher =    {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
-  address =      {Dagstuhl, Germany},
   URL =          {http://drops.dagstuhl.de/opus/volltexte/2019/10538},
   URN =          {urn:nbn:de:0030-drops-105387},
   doi =          {10.4230/LIPIcs.FSCD.2019.31},
@@ -40,23 +100,11 @@
                   categorical gluing, canonicity}
 }
 
-@article{bizjak-gratzer-krebbers-birkedal:2019,
-  author =       {Bizjak, Ale\v{s} and Gratzer, Daniel and Krebbers, Robbert and Birkedal, Lars},
-  title =        {Iron: Managing Obligations in Higher-order Concurrent Separation Logic},
-  journal =      {Proc. ACM Program. Lang.},
-  issue_date =   {January 2019},
-  volume =       3,
-  number =       {POPL},
-  month =        jan,
-  year =         2019,
-  issn =         {2475-1421},
-  pages =        {65:1--65:30},
-  articleno =    65,
-  numpages =     30,
-  url =          {http://doi.acm.org/10.1145/3290378},
-  doi =          {10.1145/3290378},
-  acmid =        3290378,
-  publisher =    {ACM},
-  address =      {New York, NY, USA},
-  keywords =     {Separation logic, concurrency, resource management},
+@misc{sterling:2020,
+  title =        {A Cubical Language for Bishop Sets},
+  author =       {Jonathan Sterling and Carlo Angiuli and Daniel Gratzer},
+  year =         2020,
+  eprint =       {2003.01491},
+  archivePrefix ={arXiv},
+  primaryClass = {cs.LO}
 }
