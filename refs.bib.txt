@@ -65,20 +65,20 @@
                   \url{https://jozefg.github.io/papers/type-theory-a-la-mode.pdf}},
 }
 
-@Unpublished{gratzer:multimodal:2020,
-  author =       {Gratzer, Daniel and Kavvos, G.A. and Nuyts, Andreas, and Birkedal, Lars},
+@inproceedings{gratzer:2020,
+  author =       {Gratzer, Daniel and Kavvos, G. A. and Nuyts, Andreas and Birkedal, Lars},
   title =        {Multimodal Dependent Type Theory},
   year =         2020,
-  note =         {To Appear at LICS 2020. Availabe at
-                  \url{https://jozefg.github.io/papers/multimodal-dependent-type-theory.pdf}},
-}
-
-@Unpublished{gratzer:solving-domain-equations:2019,
-  author =       {Daniel Gratzer},
-  title =        {Solving Domain Equations over Transfinite Ordinals},
-  note =         {Available at
-                  \url{https://jozefg.github.io/papers/domain-equations-over-transfinite-ordinals.pdf}},
-  year =         2019,
+  isbn =         9781450371049,
+  publisher =    {Association for Computing Machinery},
+  address =      {New York, NY, USA},
+  url =          {https://doi.org/10.1145/3373718.3394736},
+  doi =          {10.1145/3373718.3394736},
+  booktitle =    {Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science},
+  pages =        {492–506},
+  numpages =     15,
+  location =     {Saarbr\"{u}cken, Germany},
+  series =       {LICS ’20}
 }
 
 @InProceedings{sterling:2019,
