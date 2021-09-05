@@ -1,3 +1,56 @@
+%% 2021
+
+@Unpublished{gratzer:adjoint-modalities:2021,
+  author =       {Gratzer, Daniel},
+  title =        {Self-adjoint modalities in {MTT}},
+  note =         {Available at \url{https://jozefg.github.io/papers/self-adjoint-modalities-in-mtt.pdf}},
+  year =         {2021},
+}
+
+@unpublished{gratzer:mtt-normalization:2021,
+  author =       {Gratzer, Daniel},
+  title =        {Normalization for multimodal type theory},
+  year =         2021,
+  note =         {Available at \url{https://arxiv.org/abs/2106.01414}},
+}
+
+@unpublished{gratzer:fitchtt:2021,
+  author =       {Gratzer, Daniel and Cavallo, Evan and Kavvos, {G.A.} and Guatto, Adrien and
+                  Birkedal, Lars},
+  title =        {Modalities and Parametric Adjoints},
+  note =         {Available at
+                  \url{https://jozefg.github.io/papers/modalities-and-parametric-adjoints.pdf}},
+  year =         2021,
+}
+
+@article{gratzer:mtt-journal:2021,
+  title =        {{Multimodal Dependent Type Theory}},
+  author =       {Daniel Gratzer and G. A. Kavvos and Andreas Nuyts and Lars Birkedal},
+  url =          {https://lmcs.episciences.org/7713},
+  doi =          {10.46298/lmcs-17(3:11)2021},
+  journal =      {{Logical Methods in Computer Science}},
+  volume =       {{Volume 17, Issue 3}},
+  year =         2021,
+  month =        Jul,
+}
+
+@inbook{spies:2021,
+  author =       {Spies, Simon and G\"{a}her, Lennard and Gratzer, Daniel and Tassarotti, Joseph and
+                  Krebbers, Robbert and Dreyer, Derek and Birkedal, Lars},
+  title =        {Transfinite Iris: Resolving an Existential Dilemma of Step-Indexed Separation
+                  Logic},
+  year =         2021,
+  isbn =         9781450383912,
+  publisher =    {Association for Computing Machinery},
+  address =      {New York, NY, USA},
+  url =          {https://doi.org/10.1145/3453483.3454031},
+  booktitle =    {Proceedings of the 42nd ACM SIGPLAN International Conference on Programming
+                  Language Design and Implementation},
+  pages =        {80–95},
+  numpages =     16
+}
+
+
 %% 2020
 
 @Unpublished{gratzer:mtt-tech-report:2020,
@@ -31,23 +84,6 @@
   eprint =       {2003.01491},
   archivePrefix ={arXiv},
   primaryClass = {cs.LO}
-}
-
-
-@misc{gratzer:mtt-journal:2020,
-  author =       {Gratzer, Daniel and Kavvos, G. A. and Nuyts, Andreas and Birkedal, Lars},
-  title =        {Multimodal Dependent Type Theory},
-  year =         2020,
-  eprint =       {2011.15021},
-  archivePrefix ={arXiv},
-  primaryClass = {cs.LO}
-}
-
-@Unpublished{spies:2020,
-  author =       {Spies, Simon and G{\"a}her, Lennard and Gratzer, Daniel and Tassarotti, Joseph and Krebbers, Robbert and Dreyer, Derek and Birkedal, Lars},
-  title =        {Transfinite Iris: Resolving an Existential Dilemma of Step-Indexed Separation Logic},
-  note =         {Available at \url{https://jozefg.github.io/papers/transfinite-iris.pdf}},
-  year =         {2020},
 }
 
 @misc{gratzer:lccc:2020,
