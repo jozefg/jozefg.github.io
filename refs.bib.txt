@@ -1,5 +1,12 @@
 %% 2021
 
+@Unpublished{gratzer:crisp-induction:2021,
+  author =       {Gratzer, Daniel},
+  title =        {Crisp induction for intensional identity types},
+  note =         {Available at \url{https://jozefg.github.io/papers/crisp-induction-for-intensional-identity-types.pdf}},
+  year =         {2021},
+}
+
 @Unpublished{gratzer:adjoint-modalities:2021,
   author =       {Gratzer, Daniel},
   title =        {Self-adjoint modalities in {MTT}},
