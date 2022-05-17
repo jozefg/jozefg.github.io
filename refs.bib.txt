@@ -1,3 +1,63 @@
+%; -*-Bibtex-*-
+
+%% 2022
+@inproceedings{gratzer:stratified-lob:2022,
+  author =       {Gratzer, Daniel and Birkedal, Lars},
+  title =        {A Stratified Approach to {L\"{o}b} Induction},
+  url =          {https://jozefg.github.io/papers/a-stratified-approach-to-lob-induction.pdf},
+  editor =       {Felty, Amy},
+  location =     {Dagstuhl, Germany},
+  publisher =    {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  booktitle =    {7th International Conference on Formal Structures for Computation and Deduction (FSCD 2022)},
+  year =         {2022},
+  series =       {Leibniz International Proceedings in Informatics (LIPIcs)},
+  volume =       228,
+  doi =          {10.4230/LIPIcs.FSCD.2022.3},
+  location =     {Saarbr\"{u}cken, Germany},
+}
+
+@inproceedings{gratzer:mtt-normalization:2022,
+  author =       {Gratzer, Daniel},
+  year =         2022,
+  publisher =    {Association for Computing Machinery},
+  address =      {New York, NY, USA},
+  booktitle =    {Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science},
+  doi =          {10.1145/3531130.3532398},
+  title =        {Normalization for Multimodal Type Theory},
+  series =       {LICS ’22},
+  url =          {https://jozefg.github.io/papers/2022-normalization-for-multimodal-type-theory-short.pdf},
+  location =     {Saarbr\"{u}cken, Germany},
+}
+
+@article{sterling:2022,
+  title =        {{A Cubical Language for Bishop Sets}},
+  author =       {Jonathan Sterling and Carlo Angiuli and Daniel Gratzer},
+  url =          {https://lmcs.episciences.org/9264},
+  doi =          {10.46298/lmcs-18(1:43)2022},
+  journal =      {{Logical Methods in Computer Science}},
+  volume =       {{Volume 18, Issue 1}},
+  year =         2022,
+  month =        Mar,
+}
+
+@article{gratzer:fitchtt:2022,
+  author =       {Gratzer, Daniel and Cavallo, Evan and Kavvos, G. A. and Guatto, Adrien and Birkedal, Lars},
+  title =        {Modalities and Parametric Adjoints},
+  year =         2022,
+  issue_date =   {July 2022},
+  publisher =    {Association for Computing Machinery},
+  address =      {New York, NY, USA},
+  volume =       23,
+  number =       3,
+  issn =         {1529-3785},
+  url =          {https://doi.org/10.1145/3514241},
+  doi =          {10.1145/3514241},
+  journal =      {ACM Trans. Comput. Logic},
+  month =        {apr},
+  articleno =    18,
+  numpages =     29,
+}
+
 %% 2021
 
 @Unpublished{gratzer:crisp-induction:2021,
