@@ -1,6 +1,7 @@
 %; -*-Bibtex-*-
 
 %% 2022
+
 @inproceedings{gratzer:stratified-lob:2022,
   author =       {Gratzer, Daniel and Birkedal, Lars},
   title =        {A Stratified Approach to {L\"{o}b} Induction},
