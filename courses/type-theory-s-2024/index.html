@@ -1,267 +1,299 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
- "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html version="-//W3C//DTD XHTML 1.1//EN"
-      xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.w3.org/1999/xhtml
-                          http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <title>Modern dependent type theory</title>
-    <link rel="stylesheet" media="screen" type="text/css" href="style.css" />
-    <link rel="stylesheet" media="screen" type="text/css" href="pure.css" />
-    <link rel="stylesheet" media="screen" type="text/css" href="grids-responsive.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modern Dependent Type Theory | Daniel Gratzer</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/grids-responsive.css" />
+    
   </head>
+
   <body>
-    <div class="wrapper" id="type-theory-page">
-      <div class="course-title", id="name">
-        <h1>Modern dependent type theory</h1>
+    <nav>
+      <div class="nav-bar-parent">
+        <div class="nav-bar-child">
+          <p><b>Daniel Gratzer</b></p>
+        </div>
+        <div class="nav-bar-child">
+          <ul class="menu">
+            
+            <li><a href="/">Home</a></li>
+            
+            <li><a href="/publications/">Publications</a></li>
+            
+            <li><a href="/preprints/">Preprints</a></li>
+            
+            <li><a href="/teaching/">Teaching</a></li>
+            
+            <li><a href="/talks/">Talks</a></li>
+            
+          </ul>
+        </div>
+        <div class="nav-bar-child">
+          <p id="email"><strong>gratzer@cs.au.dk</strong></p>
+        </div>
       </div>
-    </div>
+    <hr/>
+    </nav>
 
-    <div class="info", id="general-info">
-      <h2>Basic information</h2>
 
-      <div class="info", id="description">
-        <h3>Course decription</h3>
-        <p>
-          This is a graduate seminar on the modern design of full-spectrum dependent type theories,
-          such as the core calculi of proof assistants like Agda, Coq, and Lean. The goal of this
-          course is to prepare students with some exposure to proof assistants to engage with current
-          research on dependent type theory. We will explore the motivations behind recent extensions
-          of Martin-Löf type theory and cover topics such as extensional, intensional, homotopy, and
-          cubical type theory. The course is co-taught by <a href="https://cs.au.dk/~birke">Lars
-            Birkedal</a> and <a href="https://danielgratzer.com">Daniel Gratzer</a> in conjunction with
-          a sibling course at Indiana University being taught
-          by <a href="https://carloangiuli.com">Carlo Angiuli</a>.
-        </p>
-      </div>
-      <div class="info", id="logistics">
-        <h3>Lecture time and location</h3>
-        Weekly lectures take place at <b>Monday 9:00-11:00</b> in <b>Nygaard 395 (5335-395)</b>
-      </div>
+<div class="article-meta">
+  <h2>
+    <span class="title">Modern Dependent Type Theory</span>
+  </h2>
+</div>
 
-      <div class="info", id="logistics">
-        <h3>Lecture notes</h3>
+<main>
+<div class="info", id="general-info">
+  <h2>Basic information</h2>
 
-        <p>
-          The best reference material is the accompanying lecture notes being written by Carlo
-          Angiuli and Daniel Gratzer. These notes are work in progress and the latest public version
-          is linked below.
-        </p>
+  <div class="info", id="description">
+    <h3>Course decription</h3>
+    <p>
+      This is a graduate seminar on the modern design of full-spectrum dependent type theories,
+      such as the core calculi of proof assistants like Agda, Coq, and Lean. The goal of this
+      course is to prepare students with some exposure to proof assistants to engage with current
+      research on dependent type theory. We will explore the motivations behind recent extensions
+      of Martin-Löf type theory and cover topics such as extensional, intensional, homotopy, and
+      cubical type theory. The course is co-taught by <a href="https://cs.au.dk/~birke">Lars
+        Birkedal</a> and <a href="https://danielgratzer.com">Daniel Gratzer</a> in conjunction with
+      a sibling course at Indiana University being taught
+      by <a href="https://carloangiuli.com">Carlo Angiuli</a>.
+    </p>
+  </div>
+  <div class="info", id="logistics">
+    <h3>Lecture time and location</h3>
+    Weekly lectures take place at <b>Monday 9:00-11:00</b> in <b>Nygaard 395 (5335-395)</b>
+  </div>
 
-        <a href="./lecture-notes.pdf">Lecture Notes</a> <em>(Last updated 2024-04-14)</em>
-      </div>
+  <div class="info", id="logistics">
+    <h3>Lecture notes</h3>
 
-    </div>
+    <p>
+      The best reference material is the accompanying lecture notes being written by Carlo
+      Angiuli and Daniel Gratzer. These notes are work in progress and the latest public version
+      is linked below.
+    </p>
 
-    <div class="info">
-      <h2>Schedule</h2>
+    <a href="./lecture-notes.pdf">Lecture Notes</a> <em>(Last updated 2024-04-14)</em>
+  </div>
 
-      <p>
-        <em><span class="warning">Tentative!</span> Subject to change</em>
-      </p>
+</div>
 
-       <table id="schedule" class="pure-table pure-table-horizontal">
-         <thead>
-           <tr>
-             <th id="num-column">#</th>
-             <th id="date-column">Date</th>
-             <th id="topic-column">Topic</th>
-             <th id="reading-column">Reading</th></tr>
-         </thead>
-         <tbody>
-           <tr>
-             <td>01</td>
-             <td>Feb 05</td>
-             <td>Dependent types for functional programmers</td>
-             <td>&sect;1.1</td>
-           </tr>
-           <tr>
-             <td>02</td>
-             <td>Feb 12</td>
-             <td>Simply-typed &lambda;-calculus</td>
-             <td>&sect;2.1</td>
-           </tr>
-           <tr>
-             <td>03</td>
-             <td>Feb 19</td>
-             <td>Syntax and the substitution calculus</td>
-             <td>&sect;2.2</td>
-           </tr>
-           <tr>
-             <td>04</td>
-             <td>Feb 26</td>
-             <td>The substitution calculus and &Pi; types</td>
-             <td>&sect;2.3, 2.4.1</td>
-           </tr>
-           <tr>
-             <td>05</td>
-             <td>Mar 04</td>
-             <td>Types and representations</td>
-             <td>&sect;2.4.1, &sect;2.4.2</td>
-           </tr>
-           <tr>
-             <td>06</td>
-             <td>Mar 11</td>
-             <td>&Sigma;, Unit, and Equality types</td>
-             <td>&sect;2.4</td>
-           </tr>
-           <tr>
-             <td>07</td>
-             <td>Mar 18</td>
-             <td>Inductive types</td>
-             <td>&sect;2.5</td>
-           </tr>
-           <tr>
-             <td>08</td>
-             <td>Mar 25</td>
-             <td>Large elimination and universes</td>
-             <td>&sect;2.6</td>
-           </tr>
-           <tr>
-             <td></td>
-             <td>Apr 01</td>
-             <td>Easter Monday</td>
-             <td></td>
-           </tr>
-           <tr>
-             <td>09</td>
-             <td>Apr 08</td>
-             <td>Proof assistants, normalization, and consistency</td>
-             <td>&sect;3.1, &sect;3.2</td>
-           </tr>
-           <tr>
-             <td>10</td>
-             <td>Apr 15</td>
-             <td>Canonicity and "Eq implies undecidable type-checking"</td>
-             <td>&sect;3.3, &sect;3.4</td>
-           </tr>
-           <tr>
-             <td>11</td>
-             <td>Apr 22</td>
-             <td>The intensional identity type</td>
-             <td>&sect;4.1, &sect;4.2</td>
-           </tr>
-           <tr>
-             <td>12</td>
-             <td>Apr 29</td>
-             <td>Limitations of intensional type theory</td>
-             <td>&sect;4.2, &sect;4.3</td>
-           </tr>
-           <tr>
-             <td>13</td>
-             <td>May 06</td>
-             <td>Classifying objects and univalence</td>
-             <td>&sect;5.1</td>
-           </tr>
-           <tr>
-             <td>14</td>
-             <td>May 13</td>
-             <td>Homotopy Type Theory</td>
-             <td>&sect;5.2</td>
-           </tr>
-         </tbody>
-       </table>
-    </div>
-    <div class="info">
-      <h2>Problem sets</h2>
+<div class="info">
+  <h2>Schedule</h2>
 
-      <p>
-        Email Daniel solutions to a problem set formatted as a PDF.  You are welcome to use the
-        following <a href="./student-handin-starter.zip">starter LaTeX code</a> to format your
-        solutions.
-      </p>
+  <p>
+    <em><span class="warning">Tentative!</span> Subject to change</em>
+  </p>
 
-      <table id="schedule" class="pure-table pure-table-horizontal">
-        <thead>
-          <tr>
-             <th id="num-column">#</th>
-             <th id="out-date-column">Released on</th>
-             <th id="in-date-column">Due on</th>
-             <th id="exercise-column">Problems</th></tr>
-         </thead>
-         <tbody>
-           <tr>
-             <td>01</td>
-             <td>Feb 12</td>
-             <td>Feb 19</td>
-             <td><a href="./pset1.pdf">PDF</td>
-           </tr>
-           <tr>
-             <td>02</td>
-             <td>Feb 26</td>
-             <td>March 04</td>
-             <td><a href="./pset2.pdf">PDF</td>
-           </tr>
-         </tbody>
-       </table>
-    </div>
-    <div class="info">
-      <h2>Exam and projects</h2>
-      <p>
-        There will be an oral exam on June 17 covering the material covered in the course. Students
-        should prepare four approximately 10&ndash;15 minutes on a topic drawn from chapters
-        2&ndash;5. In particular:
+  <table id="schedule" class="pure-table pure-table-horizontal">
+    <thead>
+      <tr>
+        <th id="num-column">#</th>
+        <th id="date-column">Date</th>
+        <th id="topic-column">Topic</th>
+        <th id="reading-column">Reading</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>01</td>
+        <td>Feb 05</td>
+        <td>Dependent types for functional programmers</td>
+        <td>&sect;1.1</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Feb 12</td>
+        <td>Simply-typed &lambda;-calculus</td>
+        <td>&sect;2.1</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Feb 19</td>
+        <td>Syntax and the substitution calculus</td>
+        <td>&sect;2.2</td>
+      </tr>
+      <tr>
+        <td>04</td>
+        <td>Feb 26</td>
+        <td>The substitution calculus and &Pi; types</td>
+        <td>&sect;2.3, 2.4.1</td>
+      </tr>
+      <tr>
+        <td>05</td>
+        <td>Mar 04</td>
+        <td>Types and representations</td>
+        <td>&sect;2.4.1, &sect;2.4.2</td>
+      </tr>
+      <tr>
+        <td>06</td>
+        <td>Mar 11</td>
+        <td>&Sigma;, Unit, and Equality types</td>
+        <td>&sect;2.4</td>
+      </tr>
+      <tr>
+        <td>07</td>
+        <td>Mar 18</td>
+        <td>Inductive types</td>
+        <td>&sect;2.5</td>
+      </tr>
+      <tr>
+        <td>08</td>
+        <td>Mar 25</td>
+        <td>Large elimination and universes</td>
+        <td>&sect;2.6</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Apr 01</td>
+        <td>Easter Monday</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>09</td>
+        <td>Apr 08</td>
+        <td>Proof assistants, normalization, and consistency</td>
+        <td>&sect;3.1, &sect;3.2</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Apr 15</td>
+        <td>Canonicity and "Eq implies undecidable type-checking"</td>
+        <td>&sect;3.3, &sect;3.4</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Apr 22</td>
+        <td>The intensional identity type</td>
+        <td>&sect;4.1, &sect;4.2</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Apr 29</td>
+        <td>Limitations of intensional type theory</td>
+        <td>&sect;4.2, &sect;4.3</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>May 06</td>
+        <td>Classifying objects and univalence</td>
+        <td>&sect;5.1</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>May 13</td>
+        <td>Homotopy Type Theory</td>
+        <td>&sect;5.2</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="info">
+  <h2>Problem sets</h2>
 
-        <ol>
-          <li> Extensional type theory </li>
-          <li>Implementation and metatheory</li>
-          <li>Intensional type theory</li>
-          <li>Homotopy type theory</li>
-        </ol>
-        The actual exam will consist of one of these presentations (randomly selected at the
-        beginning of the exam) along with 5&ndash;10 minutes of questions. For timing reasons, we
-        will not offer a 30 minute review period upon selecting a topic, but students are welcome to
-        occasionally reference notes while presenting.
+  <p>
+    Email Daniel solutions to a problem set formatted as a PDF.  You are welcome to use the
+    following <a href="./student-handin-starter.zip">starter LaTeX code</a> to format your
+    solutions.
+  </p>
 
-        <br/><br/>
+  <table id="schedule" class="pure-table pure-table-horizontal">
+    <thead>
+      <tr>
+        <th id="num-column">#</th>
+        <th id="out-date-column">Released on</th>
+        <th id="in-date-column">Due on</th>
+        <th id="exercise-column">Problems</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>01</td>
+        <td>Feb 12</td>
+        <td>Feb 19</td>
+        <td><a href="./pset1.pdf">PDF</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Feb 26</td>
+        <td>March 04</td>
+        <td><a href="./pset2.pdf">PDF</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="info">
+  <h2>Exam and projects</h2>
+  <p>
+    There will be an oral exam on June 17 covering the material covered in the course. Students
+    should prepare four approximately 10&ndash;15 minutes on a topic drawn from chapters
+    2&ndash;5. In particular:
 
-        Ph.D. students in this course will complete an additional project summarizing a paper of
-        their choice on type theory. The project is due at the end of the
-        semester. See <a href="./project-description.pdf">the project description</a> for further
-        information.
-        <br/><br/>
+    <ol>
+      <li> Extensional type theory </li>
+      <li>Implementation and metatheory</li>
+      <li>Intensional type theory</li>
+      <li>Homotopy type theory</li>
+    </ol>
+    The actual exam will consist of one of these presentations (randomly selected at the
+    beginning of the exam) along with 5&ndash;10 minutes of questions. For timing reasons, we
+    will not offer a 30 minute review period upon selecting a topic, but students are welcome to
+    occasionally reference notes while presenting.
 
-        Talks will occur on 09:00 on Friday May 24 in Nygaard 395 (our usual meeting time and place,
-        just on Friday). We will aim for each talk to be roughly 30 to 40 minutes plus
-        questions. Accordingly, this will run for approximately 3 hours rather than our usual 2.
+    <br/><br/>
 
-        <br/><br/>
-       <table id="talks" class="pure-table pure-table-horizontal">
-         <thead>
-           <tr>
-             <th id="speaker-column">Speaker</th>
-             <th id="paper-column">Paper</th>
-           </tr>
-         </thead>
-         <tbody>
-           <tr>
-             <td>Egor</td>
-             <td>Definitional Proof-Irrelevance without K</td>
-           </tr>
-           <tr>
-             <td>Sergei</td>
-             <td>Axioms for Modelling Cubical Type Theory in a Topos</td>
-           </tr>
-           <tr>
-             <td>Bastien</td>
-             <td>Programming up to Congruence</td>
-           </tr>
-           <tr>
-             <td>Hei Li</td>
-             <td>Categories with Families: Unityped, Simply Typed, and Dependently Typed</td>
-           </tr>
-           <tr>
-             <td>Lasse</td>
-             <td>Constructing Quotient Inductive-Inductive Types</td>
-           </tr>
-         </tbody>
-       </table>
-      </p>
-      <br/>
-      <br/>
-    </div>
+    Ph.D. students in this course will complete an additional project summarizing a paper of
+    their choice on type theory. The project is due at the end of the
+    semester. See <a href="./project-description.pdf">the project description</a> for further
+    information.
+    <br/><br/>
+
+    Talks will occur on 09:00 on Friday May 24 in Nygaard 395 (our usual meeting time and place,
+    just on Friday). We will aim for each talk to be roughly 30 to 40 minutes plus
+    questions. Accordingly, this will run for approximately 3 hours rather than our usual 2.
+
+    <br/><br/>
+    <table id="talks" class="pure-table pure-table-horizontal">
+      <thead>
+        <tr>
+          <th id="speaker-column">Speaker</th>
+          <th id="paper-column">Paper</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Egor</td>
+          <td>Definitional Proof-Irrelevance without K</td>
+        </tr>
+        <tr>
+          <td>Sergei</td>
+          <td>Axioms for Modelling Cubical Type Theory in a Topos</td>
+        </tr>
+        <tr>
+          <td>Bastien</td>
+          <td>Programming up to Congruence</td>
+        </tr>
+        <tr>
+          <td>Hei Li</td>
+          <td>Categories with Families: Unityped, Simply Typed, and Dependently Typed</td>
+        </tr>
+        <tr>
+          <td>Lasse</td>
+          <td>Constructing Quotient Inductive-Inductive Types</td>
+        </tr>
+      </tbody>
+    </table>
+  </p>
+</div>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
   </body>
 </html>
+
