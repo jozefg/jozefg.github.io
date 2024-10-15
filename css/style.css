@@ -13,11 +13,13 @@ body {
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; margin-right: 10px}
-.menu a {
+.menu a, .menu a:visited {
   text-decoration: none;
   background: #eee;
-  padding: 1px;
+  padding: 5px;
   border-radius: 2px;
+  color: blue;
+  font-weight: bold;
 }
 
 .article-meta {
@@ -98,11 +100,12 @@ dl.ref > dd {
 
 .publinks { padding: 0; }
 .publinks li { display: inline-block; margin-right: 10px}
-.publinks a {
+.publinks a, .publinks a:visited {
   text-decoration: none;
   background: #eee;
   padding: 2px;
   border-radius: 5px;
+  color: blue;
 }
 
 div.entry {
