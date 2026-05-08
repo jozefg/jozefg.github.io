@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://danielgratzer.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://danielgratzer.com/courses/category-theory-f-2020/</loc>
+    <loc>http://localhost:1313/courses/category-theory-f-2020/</loc>
   </url><url>
-    <loc>https://danielgratzer.com/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://danielgratzer.com/courses/type-theory-f-2024/</loc>
+    <loc>http://localhost:1313/courses/type-theory-f-2024/</loc>
   </url><url>
-    <loc>https://danielgratzer.com/courses/type-theory-s-2024/</loc>
+    <loc>http://localhost:1313/courses/type-theory-s-2024/</loc>
   </url><url>
-    <loc>https://danielgratzer.com/publications/</loc>
+    <loc>http://localhost:1313/publications/</loc>
   </url><url>
-    <loc>https://danielgratzer.com/preprints/</loc>
+    <loc>http://localhost:1313/preprints/</loc>
   </url><url>
-    <loc>https://danielgratzer.com/talks/</loc>
+    <loc>http://localhost:1313/talks/</loc>
   </url><url>
-    <loc>https://danielgratzer.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://danielgratzer.com/courses/</loc>
+    <loc>http://localhost:1313/courses/</loc>
   </url>
 </urlset>
